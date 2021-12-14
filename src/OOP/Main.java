@@ -7,27 +7,51 @@ public class Main {
 
         //tổ hợp phím xem tham số truyền vào function Ctrl+ p
 
-        Person teo = new Person("Nguyễn Văn Tèo" , 5);
-        //Thuộc tính
+        // tổ hợp phóm generate setter getter alt + insert
 
-        //heap memory
-//        teo.age = 18;
-//        teo.name  = "Nguyễn văn tèo";
+        // // tổ hợp phóm generate gợi ý sửa lỗi  alt + enter
+
+//        Person teo = new Person("Nguyễn Văn Tèo" , 5);
+//        teo.setName("");
+//        //Thuộc tính
+//
+//        //heap memory
+////        teo.age = 18;
+////        teo.name  = "Nguyễn văn tèo";
+//
+//
+//        Person ti = new Person("Nguyễn Văn tí", 5);
+////        ti.name = "Nguyễn văn tí";
+////        ti.age = 5;
+//
+//
+//
+//        System.out.println("Tuổi: "+teo.getAge());
+//
+//        System.out.println("Tên: "+ teo.upperCaseName());
+//
+//        System.out.println("Tuổi: "+ti.getAge());
+//
+//        System.out.println("Tên: "+ ti.getName());
+        Parent dad = new Parent("Mr .a ", 5, "HCM");
+        System.out.println(dad.upperCaseName());
+        System.out.println(dad.getName());
+        System.out.println(dad.getAddress());
+        System.out.println(dad.getAge());
+
+        //Tính chất của hướng đối tượng
+        //- Đóng gói
+        //- Kế thừa
+        //- Đa Hình
+        //- Trừu tượng
+        //- Quan hệ Hash A
 
 
-        Person ti = new Person("Nguyễn Văn tí", 5);
-//        ti.name = "Nguyễn văn tí";
-//        ti.age = 5;
+        //Access modifier: Phạm vi truy cập
+        // - Public
+        // - Private
+        // - Protected
 
-
-
-        System.out.println("Tuổi: "+teo.age);
-
-        System.out.println("Tên: "+ teo.upperCaseName());
-
-        System.out.println("Tuổi: "+ti.age);
-
-        System.out.println("Tên: "+ ti.name);
 
 
     }
